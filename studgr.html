@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Career Pro</title>
+    <style>
+        ul {
+			display: flex;
+			list-style-type: none;
+			padding: 0;
+			margin: 0;
+			justify-content: center;
+			align-items: center;
+			height: 100%;
+		}
+
+		ul li {
+			text-align: center;
+			padding: 20px;
+			border: 1px solid black;
+			border-radius: 10px;
+			margin: 10px;
+			background-color: rgb(150, 240, 146);
+			position: relative;
+            font-size: 23px;
+		}
+
+		ul li:first-child {
+			margin-left: 0;
+		}
+
+		ul li:last-child {
+			margin-right: 0;
+		}
+
+		ul li:before {
+			content: "";
+			display: block;
+			height: 40px;
+			width: 0;
+			border-width: 0 0 1px 1px;
+			margin: 20px auto 0;
+			position: absolute;
+			top: -20px;
+			left: 50%;
+			transform: translateX(-50%);
+		}
+
+		ul li:first-child:before {
+			margin-left: 0;
+		}
+
+		ul li:last-child:before {
+			margin-right: 0;
+			border-width: 0 1px 1px 0;
+		}
+
+		ul li:after {
+			content: "";
+			display: block;
+			height: 0;
+			width: 0;
+			border-style: solid;
+			border-width: 10px 0 10px 10px;
+			border-color: transparent transparent transparent black;
+			position: absolute;
+			top: 50%;
+			right: -20px;
+			transform: translateY(-50%);
+		}
+
+		ul li:first-child:after {
+			display: none;
+		}
+
+        .pos{
+            padding: 100px;
+        }
+
+        .posdiv1{
+            background-color: rgb(198, 241, 208); 
+            padding: 2px; 
+            border: black; 
+            border-width: 1px; 
+            border-radius: 2px;
+        }
+
+        .posdiv2{
+            background-color: rgb(198, 241, 208); 
+            padding: 2px; 
+            border: black; 
+            border-width: 1px; 
+            border-radius: 2px;
+        }
+
+        ol li{
+            background-color: transparent;
+            border: 0;
+            padding: 2px;
+            font-size: 25px;
+        }
+
+        /* header */
+        header {
+            background: url("img11.jpg");
+            background-size: cover;
+            padding: 20px;
+            text-align: center;
+        }
+
+        header p {
+            color: #fff;
+            font-size: 25px;
+        }
+
+        /* footer */
+        footer {
+            background: url("img11-1.jpg");
+            background-size: cover;
+            color: #fff;
+            padding: 20px;
+            text-align: center;
+            margin-bottom: 0%;
+        }
+
+        footer h3 {
+            margin-top: 0;
+        }
+
+        footer ul li {
+            margin-bottom: 10px;
+        }
+
+        footer ul li a {
+            color: #fff;
+        }
+    </style>
+</head>
+<body>
+	<header>
+		<nav class="nav1">
+			<ul style="list-style: none; margin: 0; padding: 0;">
+				<li style="display: inline-block; margin-right: 20px; border: 0; background-color: transparent;"><a style="color: #ffffff; text-decoration: none; font-size: 23px;" href="home.html">Trang chủ</a></li>
+				<li style="display: inline-block; margin-right: 20px;  border: 0; background-color: transparent;"><a style="color: #ffffff; text-decoration: none; font-size: 23px;" href="LOGOUT.html">Đăng xuất</a></li>
+			</ul>
+		</nav>
+		<h1 style="font-size: 70px;color: azure; font-family:Copperplate ;">Career Pro</h1>
+		<p>Định hướng nghề nghiệp dễ dàng</p>
+
+        <br>
+		<form action="http://localhost/display.php">
+        <input  style="width: 400px; height: 25px; border-radius: 10px; font-size: 15px;" type="text" placeholder="  Nhập nghề nghiệp bạn muốn định hướng " name="searching">
+		<button type="submit">TÌM KIẾM</button>
+		</form>
+	</header>
+
+	<div class="pos">
+        <div class="posdiv1">
+        <p style="text-align: center; font-size: 37px; font-weight: bold;">Lộ trình dành cho bạn!</p>
+        <ul>
+            <li>Kỳ thi THPT</li>
+            <li>Bước 1</li>
+            <li>Bước 2</li>
+            <li>Bước 3</li>
+            <li>Bước 4</li>
+            <li>Bước 5</li>
+            <li>Bước 6</li>
+        </ul>
+        <ul>
+            <li>Kỳ thi THPT</li>
+            <li>Bước 1</li>
+            <li>Bước 2</li>
+            <li>Bước 3</li>
+            <li>Bước 4</li>
+            <li>Bước 5</li>
+        </ul>
+        <ul>
+            <li>Kỳ thi THPT</li>
+            <li>Bước 1</li>
+            <li>Bước 2</li>
+            <li>Bước 3</li>
+            <li>Bước 4</li>
+            <li>Bước 5</li>
+            <li>Bước 6</li>
+            <li>Bước 7</li>
+            <li>Bước 8</li>
+        </ul></div><br>
+
+        <div>
+        <p style="text-align: center; font-size: 35px; font-weight: bold;">Các trường dành cho bạn</p>
+        <ol>
+            <li>Trường 1</li>
+            <li>Trường 2</li>
+            <li>Trường 3</li>
+            <li>Trường 4</li>
+            <li>Trường 5</li>
+            <li>Trường 6</li>
+            <li>Trường 7</li>
+        </ol>
+    </div>
+    </div>
+
+	<footer style="background-image: url(img11-1.jpg); background-size: cover; color: #fff;
+        padding: 20px;
+        text-align: center;
+        margin-bottom: 0%;">
+		<div class="container">
+		  <div class="row">
+			<div class="col-md-6">
+			  <h2>Liên hệ với chúng tôi</h2>
+			  <p>Điện thoại: 9999999999</p>
+			  <p>Email: careerpro@gmail.com</p><br>
+			</div>
+		  </div>
+		  <div class="row">
+			<div class="col-md-12">
+			  <p>&copy; 2023 Career Pro. Mọi quyền được bảo lưu.</p>
+			</div>
+		  </div>
+		</div>
+	</footer>
+
+</body>
+</html>
