@@ -157,7 +157,7 @@ header p {
 	<header>
 		<nav class="nav1">
 			<ul style="list-style: none; margin: 0; padding: 0;">
-				<li style="display: inline-block; margin-right: 20px; border: 0; background-color: transparent;"><a style="color: #ffffff; text-decoration: none; font-size: 23px;" href="home.html">Home</a></li>
+				<li style="display: inline-block; margin-right: 20px; border: 0; background-color: transparent;"><a style="color: #ffffff; text-decoration: none; font-size: 23px;" href="index.html">Home</a></li>
 				
 				<li style="display: inline-block; margin-right: 20px;  border: 0; background-color: transparent;"><a style="color: #ffffff; text-decoration: none; font-size: 23px;" href="LOGOUT.html">Logout</a></li>
 			</ul>

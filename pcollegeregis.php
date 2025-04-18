@@ -34,7 +34,7 @@ $querry=mysqli_query($conn,"insert into college (id,clgname,city,state,Pincode,w
 if ($querry)
 {
     echo "Data accepted!";
-    header('home.html');
+    header('index.html');
 }
 else{
     echo "<h1>Data failed</h1>";

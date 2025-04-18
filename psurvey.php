@@ -31,7 +31,7 @@ $querry=mysqli_query($conn,"insert into employee (Designation,E1,C1,E2,C2,E3,C3,
 if ($querry)
 {
     echo "Data accepted!";
-    header('C:\Users\DIVYA\Downloads\MINI PROJECT SEM IV-20231031T022851Z-001\MINI PROJECT SEM IV\home.html');
+    header('C:\Users\DIVYA\Downloads\MINI PROJECT SEM IV-20231031T022851Z-001\MINI PROJECT SEM IV\index.html');
 }
 else{
     echo "<h1>Data failed</h1>";
